@@ -16,15 +16,14 @@ CE_url = "http:+++++++"
 #------------------------------------------------
 
 IP_servidorP    = 'https://sportlife.fuseaccess.com' #'http://18.237.109.221' en producion apuntar con IP                # Pruebas
-IP_servidorP    = 'http://192.168.0.4'                # Pruebas
-IP_servidor     = 'http://34.220.121.133'                 # Servidor
+IP_servidorP    = 'http://192.168.0.4'               # Pruebas
+IP_servidor     = 'http://34.221.92.179'             # Servidor
 
 #MAC_DIRC        = 'cat /sys/class/net/eth0/address'
 MAC_DIRC        = 'cat /sys/class/net/wlan0/address'
 MAC             = commands.getoutput(MAC_DIRC)
 MAC             = MAC.replace(":","")
 ID_Tarjeta      = Generar(MAC)                             # ID
-ID_Tarjeta      = 'ABDB12022020b827eb1e9142000028'
 #ID_Tarjeta      = '23'  #'19' #ID de prueba #ID_Tarjeta      = ''
 #------		Directorio
 CE_rl =[        "/api/access/keyboard_access",      # Enviar Teclado
