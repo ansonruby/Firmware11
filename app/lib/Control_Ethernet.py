@@ -8,7 +8,7 @@ import Control_Archivos2  as Ca
 Generar		         = Ca.Generar_ID_Tarjeta
 
 #local prueba equipo
-CE_V=0   # 0: servidor de prueba 1: las direciones del aplicativo
+CE_V=1   # 0: servidor de prueba 1: las direciones del aplicativo
 CE_url = "http:+++++++"
 
 #------------------------------------------------
